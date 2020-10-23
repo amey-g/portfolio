@@ -111,7 +111,7 @@ p {
     bottom: 0;
     border-top: rgb(219, 219, 219) 1px ridge;
     background-color: white;
-    color: black;
+    color: rgb(116, 116, 116);
     text-align: center;
 }
 
