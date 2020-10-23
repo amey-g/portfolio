@@ -1,10 +1,12 @@
 body {
     font-family: "Arial", sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .sidenav {
     height: 100%;
-    width: 300px;
+    width: 25vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -63,10 +65,12 @@ body {
 }
 
 .main {
-    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-left: 25vw; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 0px;
 }
+
+
 
 /* Justifying Content text */ 
 p { 
@@ -99,15 +103,17 @@ p {
     font-weight: 700;
 }
 
-footer {
-    position: absolute;
-    bottom: 0px;
-    margin-left: 700px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* bottom: 10px; */
-}
 
+.footer {
+    position: fixed;
+    margin-left: 25vw;
+    width: 75vw;
+    bottom: 0;
+    border-top: rgb(219, 219, 219) 1px ridge;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
 
 /* width */
 ::-webkit-scrollbar {
