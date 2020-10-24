@@ -71,6 +71,7 @@ body {
   
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
 }
   
 /* Float four columns side by side */
@@ -101,13 +102,41 @@ body {
 /* Style the counter cards */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
+    padding: 16px 16px 8px 16px;
     background-color: #f1f1f1;
 }
 
 .card:hover {
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+p.project-title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p.project-description {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ts-logo {
+    height: 30px;
+}
+
+p.project-link {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-tech-stack-icons {
+    text-align: center;
+}
+
+.project-tech-stack-icons i {
+    margin-right: 15px;
 }
 
 
